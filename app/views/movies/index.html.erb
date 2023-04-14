@@ -1,0 +1,18 @@
+<div class = "container">
+  <div>
+    <div>
+      <%= image_tag "movie icon.png", height:"100px;", width:"100px;" %>
+    </div>
+    <div>
+      <ol>
+        <% @movies.each do |movie| %>
+          <%= link_to movie_path(movie), style:"text-decoration:none;" do %>
+            <li><%= movie.title %></li>
+          <% end %>
+        <% end %>
+      </ol>
+    </div>
+  </div>
+
+</div>
+  <%= render "shared/footer" %>
