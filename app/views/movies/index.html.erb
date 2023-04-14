@@ -4,6 +4,14 @@
       <%= image_tag "movie icon.png", height:"100px;", width:"100px;" %>
     </div>
     <div>
+    <button class="btn">
+      <%= link_to "Get Random Movie", movie_path(@movies.sample), style:"text-decoration:none;" %> <br>
+    </button>
+    <div class= "btn">
+       <%= link_to "Clear Filter", redirect_to: movies_path %>
+    </div>
+    </div>
+    <div>
       <ol>
         <% @movies.each do |movie| %>
           <%= link_to movie_path(movie), style:"text-decoration:none;" do %>
