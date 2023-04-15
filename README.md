@@ -1,6 +1,6 @@
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
 
-<h1>Movie Night Selector</h1>
+<h1>Importer Movie</h1>
 Este aplicativo foi criado para colocar em prática o uso de uma <strong>API externa<strong> criada no repositório do mesmo dono deste programa.
 
 <h1>API</h1>
