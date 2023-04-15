@@ -1,25 +1,24 @@
 require "json"
-require "open-uri"
+require 'httparty'
 
-
-
-puts "Cleaning up database..."
+puts "Clearing Database.."
 Movie.destroy_all
-puts "Database cleaned"
+puts "Database cleared!"
 
-url = "https://movie-catalog-api-v2.herokuapp.com/"
+puts "Seeding Database.."
+for i in 1..6 do
+  puts "Seeding page #{i}.."
+  response = HTTParty.get("https://movie-catalog2.herokuapp.com/api/v1/movies?page=#{i}")
+  movies = response.parsed_response['movies']
 
-  puts "Importing movies from page "
-  movies = JSON.parse(URI.open(url).read)
   movies.each do |movie|
-    puts "Creating #{movie['title']}"
-    Movie.create(
-      id: movie['id'].to_i,
+    Movie.create!(
       title: movie['title'],
       genre: movie['genre'],
       year: movie['year'],
-      description: movie['description'],
-      country: movie['country']
+      country: movie['country'],
+      description: movie['description']
     )
   end
-puts "Movies created"
+end
+puts "Done!"
