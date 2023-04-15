@@ -1,7 +1,7 @@
 
 
 <h1>Importer Movie</h1>
-Este aplicativo foi criado para colocar em prática o uso de uma <strong>API externa<strong> criada no repositório do mesmo dono deste programa.
+Este aplicativo foi criado para colocar em prática o uso de uma <strong>API externa</strong> encontrada em produção no link: https://movie-catalog2.herokuapp.com/api/v1/movies.
 
 <h1>API</h1>
 
