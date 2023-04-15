@@ -1,4 +1,4 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+
 
 <h1>Importer Movie</h1>
 Este aplicativo foi criado para colocar em prática o uso de uma <strong>API externa<strong> criada no repositório do mesmo dono deste programa.
@@ -24,9 +24,15 @@ Para executar o aplicativo, use o seguinte comando:
 
 <h1>Sobre o App </h1>
 
+
+
 > A página inicial (http://localhost:3000/) exibe uma lista de todos os filmes importados. E permite obter um filme aleatório ou limpar quaisquer filtros aplicados.
 
 > A página de detalhes do filme (http://localhost:3000/movies/:id) mostra os detalhes de um filme específico.
+
+![image](https://user-images.githubusercontent.com/93097561/232227900-bdb35090-65ee-451f-8664-64764d93515b.png)
+
+![image](https://user-images.githubusercontent.com/93097561/232228164-10cdd6c0-f7fc-4d51-b14c-0c550ac32c82.png)
 
 <h1>Visão Geral do Código</h1>
 
