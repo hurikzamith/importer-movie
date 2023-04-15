@@ -30,9 +30,10 @@ Para executar o aplicativo, use o seguinte comando:
 
 > A página de detalhes do filme (http://localhost:3000/movies/:id) mostra os detalhes de um filme específico.
 
-![image](https://user-images.githubusercontent.com/93097561/232252372-09ddb358-1dfa-436b-9937-4edd8d2cedf8.png)
 
-![image](https://user-images.githubusercontent.com/93097561/232252390-ff697c30-bbe4-4769-8c6c-86dd7c2ea9e8.png)
+https://user-images.githubusercontent.com/93097561/232254203-4d209a08-0aae-45cb-bc91-a607dccf9691.mp4
+
+
 <h1>Visão Geral do Código</h1>
 
 > config/routes.rb: Define as rotas do aplicativo, incluindo o uso do gem Devise para autenticação do usuário e os recursos para filmes.
